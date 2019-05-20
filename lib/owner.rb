@@ -29,7 +29,8 @@ class Owner
   def say_species
     puts "I'm #{species}"
   end
-  
+  def buy_cat
+   
   
  
 end
