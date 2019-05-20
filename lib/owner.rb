@@ -67,4 +67,17 @@ class Owner
       fish.mood = 'happy'
     end
  end
+ 
+ def list_pets
+    "I have #{pets[:fishes].length} fish, #{pets[:dogs].length} dog(s), and #{pets[:cats].length} cat(s)."
+  end
+
+  def sell_pets
+    pets.each do |pet, arr|
+      arr.map do |pet|
+        pet.mood = 'nervous'
+      end
+      arr.clear
+    end
+  end
 end
