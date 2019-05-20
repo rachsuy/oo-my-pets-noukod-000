@@ -79,5 +79,6 @@ class Owner
       end
       arr.clear
     end
+    @all
   end
 end
