@@ -11,6 +11,8 @@ class Owner
     @name = name
    # @@pets = pets
     @@all << self
+    
+     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
   
   
