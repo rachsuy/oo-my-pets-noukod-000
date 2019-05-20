@@ -29,7 +29,9 @@ class Owner
   def say_species
     puts "I'm #{species}"
   end
-  def buy_cat
+  def buy_cat(cat)
+    @@pets[:cats] << Cat.new(cat)
+  end
    
   
  
