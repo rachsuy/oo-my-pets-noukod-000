@@ -17,6 +17,10 @@ class Owner
   def self.all
     @@all
   end
+  
+  def self.pets
+    @@pets 
+  end
 
   def self.count
     @@all.length
